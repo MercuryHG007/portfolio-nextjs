@@ -1,5 +1,6 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
+import About from "@/components/about"
 
 const Home = () => {
   return (
@@ -10,12 +11,17 @@ const Home = () => {
 
       <section
         id="hero"
-        className="snap-center"
+        className="snap-start"
       >
         <Hero />
       </section>
 
-      {/* ABOUT */}
+      <section
+        id="about"
+        className="snap-center"
+      >
+        <About />
+      </section>
       
       {/* EXPERIENCE */}
       
