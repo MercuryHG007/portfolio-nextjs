@@ -27,7 +27,7 @@ const About = () => {
                         title="About"
                     />
                     <div
-                        className="w-56 h-56 md:w-64 md:h-80 xl:w-[500px] xl:h-[600px]   flex items-center justify-center "
+                        className="w-56 h-56 md:w-64 md:h-80 xl:w-[500px] xl:h-[600px] flex items-center justify-center "
                     >
                         <motion.img
                             initial={{
@@ -52,7 +52,7 @@ const About = () => {
                     </div>
                 </div>
                 <div
-                    className="h-[400px] lg:h-auto space-y-10 px-0 py-6 md:px-10 "
+                    className="h-[400px] lg:h-auto space-y-5 md:space-y-10 pt-4 px-0 md:px-10 "
                 >
                     <h4
                         className="text-4xl font-semibold "
