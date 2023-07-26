@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0
+}
+
 html,
 body,
 :root {
@@ -9,5 +13,12 @@ body,
 }
 
 body{
-    background-color: #242424;
+    background-color: #363636;
+    color: white;
+}
+
+@layer components{
+    .heroButton{
+        @apply px-5 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-neutral-300 transition-all hover:border-[#C2D84B] hover:text-[#C2D84B] hover:cursor-pointer
+    }
 }
