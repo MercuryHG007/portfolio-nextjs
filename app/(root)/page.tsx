@@ -1,7 +1,27 @@
-export default function Home() {
+import Header from "@/components/header"
+
+const Home = () => {
   return (
-    <h1>
-      Hello Portfolio
-    </h1>
+    <div
+      className="overflow-hidden "
+    >
+      {/* HEADER */}
+      <Header />
+      
+      {/* HERO */}
+      
+      {/* ABOUT */}
+      
+      {/* EXPERIENCE */}
+      
+      {/* SKILLS */}
+      
+      {/* PROJECTS */}
+      
+      {/* CONTACT ME */}
+      
+    </div>
   )
 }
+
+export default Home
